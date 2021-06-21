@@ -1,0 +1,177 @@
+/*landing page btn*/
+.btn-1 {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #FFFFFF;
+    background: #1abc9c;
+    cursor: pointer;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-1:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-1a {
+    border: 3px solid #777 !important;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+    color: #fff;
+    background: #46bc8e;
+
+}
+/* Button 1b */
+.btn-1b {
+    border: 3px solid #1abc9c !important;
+    background: #1abc9c;
+    color: #fff;
+    border-radius: 50px;
+
+}
+.btn-1b:hover,
+.btn-1b:active {
+    border-radius: 50px;
+    color: #fff;
+    border: 3px solid #48c9b0 !important;
+    background: #60c99a;
+}
+
+
+.button {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.button:focus, .button:active:focus, .button.active:focus {
+    outline: 0 none;
+}
+
+/******************************************************
+    STANDARD BUTTONS
+******************************************************/
+
+.button-default {
+    border: 2px solid #C4C4C4;
+    color: #737373;
+    padding: 12px 22px;
+}
+.button-default:hover, .button-default:focus, .button-default:active, .button-default.active, .open > .dropdown-toggle.button-default {
+    background: #FFFFFF;
+    border-color: #949494;
+    color: #737373;
+}
+.button-default:active, .button-default.active {
+    border-color: #737373;
+    box-shadow: none;
+}
+.button-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+.button-primary:hover, .button-primary:focus, .button-primary:active, .button-primary.active, .open > .dropdown-toggle.button-primary {
+    background: #33a6cc;
+}
+.button-primary:active, .button-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+.button-success {
+    background: #00bf6f;
+    color: #ffffff;
+}
+.button-success:hover, .button-success:focus, .button-success:active, .button-success.active, .open > .dropdown-toggle.button-success {
+    background: #39bf87;
+}
+.button-success:active, .button-success.active {
+    background: #008c52;
+    box-shadow: none;
+}
+.button-info {
+    background: #31cde8;
+    color: #ffffff;
+}
+.button-info:hover, .button-info:focus, .button-info:active, .button-info.active, .open > .dropdown-toggle.button-info {
+    background: #5fd4e8;
+}
+.button-info:active, .button-info.active {
+    background: #35a2b5;
+    box-shadow: none;
+}
+.button-warning {
+    background: #eb8f34;
+    color: #ffffff;
+}
+.button-warning:hover, .button-warning:focus, .button-warning:active, .button-warning.active, .open > .dropdown-toggle.button-warning {
+    background: #eba259;
+}
+.button-warning:active, .button-warning.active {
+    background: #b87430;
+    box-shadow: none;
+}
+.button-danger {
+    background: #f25454;
+    color: #ffffff;
+}
+.button-danger:hover, .button-danger:focus, .button-danger:active, .button-danger.active, .open > .dropdown-toggle.button-danger {
+    background: #f26d6d;
+}
+.button-danger:active, .button-danger.active {
+    background: #bf4343;
+    box-shadow: none;
+}
+
+/******************************************************
+    SHARP BUTTONS
+******************************************************/
+
+.button.sharp {
+    border-radius: 0;
+}
+
+/******************************************************
+    OUTLINE BUTTONS
+
+/******************************************************
+    BUTTON SIZING
+******************************************************/
+
+.button-xs, .button-group-xs > .button {
+    padding: 2px 6px;
+}
+.button-sm, .button-group-sm > .button {
+    padding: 8px 12px;
+}
+.button-lg {
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+.button-xs.button-default, .button-xs.outline {
+    padding: 0px 4px;
+}
+.button-sm.button-default, .button-sm.outline {
+    padding: 6px 10px;
+}
+.button-lg.button-default, .button-lg.outline {
+    padding: 18px 38px;
+}

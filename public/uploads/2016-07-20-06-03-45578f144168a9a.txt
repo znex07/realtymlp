@@ -1,0 +1,30 @@
+USERS TABLE:
+
+user_type change to profile_visibility
+
+MODULES:
+
+sidebar avatar, myprofile, agents (public)
+
+FIXES:
+deactivate account.
+post_requirements.
+auto_matching
+account limitation when reverted back to free.
+user_management (admin and user side).
+payment.
+
+
+MODULES:
+listings,
+
+SUBSCRIPTION:
+subscriptions to subscription_type
+
+PUBLIC LISTING FUNCTIONS:
+shareables (groups and affiliates)
+check shareable data if affiliate or public
+
+LISTINGS:
+Don't dispatch in messages once deleted.
+

@@ -1,0 +1,174 @@
+.aff-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {    
+    border: 0px solid #ddd !important;
+}
+
+.aff-well {
+    text-align: center;
+}
+
+.aff-well h3 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.aff-modal h3 {
+    font-size: 16px;
+}
+
+.aff-card-container {
+    padding: 10px;
+}
+
+.aff-card-container .aff-name {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.aff-card {
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.aff-card:hover {
+    border: 2px solid #1abc9c;
+}
+
+.aff-list {
+    background: #FFF;
+    padding: 10px;
+}
+
+
+
+.aff-confirmation-box {
+    padding-top: 15px;
+}
+
+.aff-confirmation-box button {
+    font-size: 12px;
+}
+
+.aff-image{
+    height: 100px !important;
+}
+ul.displayby {
+    margin:0 !important;
+    
+}
+
+ul.displayby li{
+    display: inline;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+ul.displayby li:nth-child(:even) {
+    margin:0 3px;
+}
+
+ul.displayby li:first-child {
+    margin-right:3px;
+}
+
+ul.displayby li:last-child {
+    margin-left:5px;
+}
+ul.displayby li a.active {
+    color:#16a085;
+}
+
+.aff-checkbox-container {
+    display: none;
+}
+
+
+.thumb-price p i {
+    color: #c6c6c6;
+    padding: 0 8px;
+}
+.thumb-img {
+    padding: 0px;   
+}
+
+.panel-body .thumb-content {
+    padding: 15px 15px 0px;
+}
+.panel-body .thumb-price {
+  padding: 0px 15px 0px;
+}
+.panel-body .thumb-tag {
+  padding: 15px 15px 0px;
+}
+.thumb-content h6 {
+    margin: 0 0 5px;
+    font-size: 14pt;
+}
+
+.thumb-price hr {
+    margin: 10px 0 10px;
+}
+.thumb-price p {
+    font-size: 15px;
+    font-weight: 400;
+  margin-bottom: 1px;
+}
+.thumb-price .text-muted {
+  color: #888;
+}
+.thumb-table td {
+    padding: 15px 10px 15px !important;
+    font-size: 12px;
+}
+.thumb-table {
+    margin-bottom: 0px;
+}
+.thumb-img:hover,
+.thumb-img:active, {
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.orderer {
+    display: inline-block;
+}
+.orderer:not(.active) {
+    display: none;
+}
+
+
+.property-label{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 75%;
+    position: relative;
+    width: 100%;
+}
+.adjust {
+    margin-bottom: 10px;
+}
+
+.thumb-img {
+    padding: 0 !important;
+}
+.label {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+label {
+    cursor:pointer !important;
+}
+/*.breadcrumb {
+    background: none !important;
+    margin: 0 !important;
+}*/
+.aff-view-mode {
+    padding: 1px 15px !important;
+}

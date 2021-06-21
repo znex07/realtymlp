@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#calendar {
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#calendar td, #calendar th {
+	font-size:0.9em;
+	border:0.1em solid #09D;
+	padding:2px 4px 2px 4px;
+}

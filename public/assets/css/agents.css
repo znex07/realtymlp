@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.agent-container{
+	background:#FFF;
+	width:auto;
+	padding:20px 30px !important;
+	margin:2px 0px;
+}
+.agent-img{
+	width:100px; 
+	height:100px;
+}
+.btnRequestAffiliate{
+	width:120px;
+}
+.cbtn:focus{
+	color:#CCC;
+}
+.agent-some{
+	font-size:12px;
+}
+.agent-commands button{
+	font-size:10px;
+}
+.starrr{
+	font-size:20px;
+}
+.fullname_label
+{
+	text-transform:capitalize;
+}

@@ -1,0 +1,75 @@
+/*
+ * Start Bootstrap - Half Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.carousel {
+    height: 75%;
+}
+
+.item,
+.item-active,
+.carousel-inner {
+    height: 100%;
+}
+.header-text {
+    position: absolute;
+    top: 10%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.header-text h2 {
+    font-size: 48px !important;
+    font-weight: bolder;
+}
+.slide-1 span {
+    font-weight: lighter;
+    line-height: 1.3;
+    font-size: 50px;
+    color: #fff !important;
+}
+.header-text h2 span {
+    color: #484848;
+}
+
+.header-text h3 span {
+    color: #484848;
+    padding: 15px;
+    font-weight: normal;
+}
+.slide-2 h2 span,
+.slide-2 h3 span,
+.slide-2 button {
+    color: #fff !important;
+    font-weight: bold;
+}
+.slide-3 h2 span {
+    font-weight: bold;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 0px 0;
+}
